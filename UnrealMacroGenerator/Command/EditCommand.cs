@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel.Design;
-using EnvDTE;
+//using EnvDTE;
 using Microsoft.VisualStudio.Shell;
 using Microsoft;
 using System.Windows.Forms;
