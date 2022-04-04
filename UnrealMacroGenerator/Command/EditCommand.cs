@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel.Design;
-//using EnvDTE;
+using EnvDTE;
 using Microsoft.VisualStudio.Shell;
 using Microsoft;
 using System.Windows.Forms;
@@ -91,6 +91,7 @@ namespace UnrealMacroGenerator.Command
             DTE Dte = (DTE)ServiceProvider.GetService(typeof(DTE));
             Assumes.Present(Dte);
             var ActiveDocument = Dte.ActiveDocument;
+            //var ActiveDocument = 
             
             if (ActiveDocument != null)
             {
