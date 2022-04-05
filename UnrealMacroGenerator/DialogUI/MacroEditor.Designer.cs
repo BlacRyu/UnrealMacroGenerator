@@ -50,10 +50,10 @@
             this.Btn_OK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btn_OK.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Btn_OK.ForeColor = System.Drawing.Color.White;
-            this.Btn_OK.Location = new System.Drawing.Point(452, 419);
+            this.Btn_OK.Location = new System.Drawing.Point(452, 454);
             this.Btn_OK.Name = "Btn_OK";
-            this.Btn_OK.Size = new System.Drawing.Size(75, 23);
-            this.Btn_OK.TabIndex = 1;
+            this.Btn_OK.Size = new System.Drawing.Size(75, 25);
+            this.Btn_OK.TabIndex = 3;
             this.Btn_OK.Text = "OK";
             this.Btn_OK.UseVisualStyleBackColor = false;
             this.Btn_OK.Click += new System.EventHandler(this.OnOKButtonClicked);
@@ -65,10 +65,10 @@
             this.Btn_Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btn_Cancel.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Btn_Cancel.ForeColor = System.Drawing.Color.White;
-            this.Btn_Cancel.Location = new System.Drawing.Point(542, 419);
+            this.Btn_Cancel.Location = new System.Drawing.Point(542, 454);
             this.Btn_Cancel.Name = "Btn_Cancel";
-            this.Btn_Cancel.Size = new System.Drawing.Size(75, 23);
-            this.Btn_Cancel.TabIndex = 2;
+            this.Btn_Cancel.Size = new System.Drawing.Size(75, 25);
+            this.Btn_Cancel.TabIndex = 4;
             this.Btn_Cancel.Text = "Cancel";
             this.Btn_Cancel.UseVisualStyleBackColor = false;
             // 
@@ -81,19 +81,19 @@
             this.Cl_MacroSpecifiers.ForeColor = System.Drawing.Color.White;
             this.Cl_MacroSpecifiers.FormattingEnabled = true;
             this.Cl_MacroSpecifiers.HorizontalScrollbar = true;
-            this.Cl_MacroSpecifiers.Location = new System.Drawing.Point(13, 13);
+            this.Cl_MacroSpecifiers.Location = new System.Drawing.Point(13, 14);
             this.Cl_MacroSpecifiers.Name = "Cl_MacroSpecifiers";
-            this.Cl_MacroSpecifiers.Size = new System.Drawing.Size(240, 398);
-            this.Cl_MacroSpecifiers.TabIndex = 3;
+            this.Cl_MacroSpecifiers.Size = new System.Drawing.Size(240, 416);
+            this.Cl_MacroSpecifiers.TabIndex = 0;
             // 
             // ScrollPanel_MetaSpecifiers
             // 
             this.ScrollPanel_MetaSpecifiers.AutoScroll = true;
             this.ScrollPanel_MetaSpecifiers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ScrollPanel_MetaSpecifiers.Controls.Add(this.Tlp_MetaSpecifiers);
-            this.ScrollPanel_MetaSpecifiers.Location = new System.Drawing.Point(260, 138);
+            this.ScrollPanel_MetaSpecifiers.Location = new System.Drawing.Point(260, 150);
             this.ScrollPanel_MetaSpecifiers.Name = "ScrollPanel_MetaSpecifiers";
-            this.ScrollPanel_MetaSpecifiers.Size = new System.Drawing.Size(360, 273);
+            this.ScrollPanel_MetaSpecifiers.Size = new System.Drawing.Size(360, 296);
             this.ScrollPanel_MetaSpecifiers.TabIndex = 5;
             // 
             // Tlp_MetaSpecifiers
@@ -108,17 +108,18 @@
             this.Tlp_MetaSpecifiers.RowCount = 1;
             this.Tlp_MetaSpecifiers.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.Tlp_MetaSpecifiers.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.Tlp_MetaSpecifiers.Size = new System.Drawing.Size(377, 270);
-            this.Tlp_MetaSpecifiers.TabIndex = 0;
+            this.Tlp_MetaSpecifiers.Size = new System.Drawing.Size(377, 292);
+            this.Tlp_MetaSpecifiers.TabIndex = 2;
+            this.Tlp_MetaSpecifiers.TabStop = true;
             // 
             // ScrollPanel_AdvancedSettings
             // 
             this.ScrollPanel_AdvancedSettings.AutoScroll = true;
             this.ScrollPanel_AdvancedSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ScrollPanel_AdvancedSettings.Controls.Add(this.Tlp_AdvancedSettings);
-            this.ScrollPanel_AdvancedSettings.Location = new System.Drawing.Point(260, 13);
+            this.ScrollPanel_AdvancedSettings.Location = new System.Drawing.Point(260, 14);
             this.ScrollPanel_AdvancedSettings.Name = "ScrollPanel_AdvancedSettings";
-            this.ScrollPanel_AdvancedSettings.Size = new System.Drawing.Size(360, 119);
+            this.ScrollPanel_AdvancedSettings.Size = new System.Drawing.Size(360, 129);
             this.ScrollPanel_AdvancedSettings.TabIndex = 6;
             // 
             // Tlp_AdvancedSettings
@@ -133,8 +134,9 @@
             this.Tlp_AdvancedSettings.Name = "Tlp_AdvancedSettings";
             this.Tlp_AdvancedSettings.RowCount = 1;
             this.Tlp_AdvancedSettings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.Tlp_AdvancedSettings.Size = new System.Drawing.Size(377, 116);
-            this.Tlp_AdvancedSettings.TabIndex = 0;
+            this.Tlp_AdvancedSettings.Size = new System.Drawing.Size(377, 126);
+            this.Tlp_AdvancedSettings.TabIndex = 1;
+            this.Tlp_AdvancedSettings.TabStop = true;
             // 
             // Cb_WithTemplate
             // 
@@ -144,8 +146,8 @@
             this.Cb_WithTemplate.Location = new System.Drawing.Point(293, 3);
             this.Cb_WithTemplate.Name = "Cb_WithTemplate";
             this.Cb_WithTemplate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Cb_WithTemplate.Size = new System.Drawing.Size(120, 20);
-            this.Cb_WithTemplate.TabIndex = 1;
+            this.Cb_WithTemplate.Size = new System.Drawing.Size(120, 22);
+            this.Cb_WithTemplate.TabIndex = 6;
             this.Cb_WithTemplate.Text = "With template";
             this.Cb_WithTemplate.UseVisualStyleBackColor = true;
             // 
@@ -157,8 +159,8 @@
             this.Llbl_Document.Location = new System.Drawing.Point(3, 3);
             this.Llbl_Document.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.Llbl_Document.Name = "Llbl_Document";
-            this.Llbl_Document.Size = new System.Drawing.Size(284, 16);
-            this.Llbl_Document.TabIndex = 0;
+            this.Llbl_Document.Size = new System.Drawing.Size(284, 17);
+            this.Llbl_Document.TabIndex = 5;
             this.Llbl_Document.TabStop = true;
             this.Llbl_Document.Text = "Open UnrealMacro document";
             this.Llbl_Document.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnDocumentLinkClicked);
@@ -170,17 +172,18 @@
             this.Flp_Document.Controls.Add(this.Cb_WithTemplate);
             this.Flp_Document.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Flp_Document.ForeColor = System.Drawing.Color.White;
-            this.Flp_Document.Location = new System.Drawing.Point(13, 418);
+            this.Flp_Document.Location = new System.Drawing.Point(13, 453);
             this.Flp_Document.Name = "Flp_Document";
-            this.Flp_Document.Size = new System.Drawing.Size(421, 24);
+            this.Flp_Document.Size = new System.Drawing.Size(421, 26);
             this.Flp_Document.TabIndex = 7;
             // 
             // MacroEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.ClientSize = new System.Drawing.Size(633, 448);
+            this.CancelButton = this.Btn_Cancel;
+            this.ClientSize = new System.Drawing.Size(633, 485);
             this.ControlBox = false;
             this.Controls.Add(this.Flp_Document);
             this.Controls.Add(this.ScrollPanel_AdvancedSettings);
